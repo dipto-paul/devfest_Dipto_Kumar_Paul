@@ -1,0 +1,15 @@
+{
+  "tender": {
+    "tender_id": "T-EXAMPLE-001",
+    "title_en": "Example Procurement Tender",
+    "title_bn": "উদাহরণ ক্রয় টেন্ডার",
+    "procuring_entity": "Example Procuring Entity",
+    "bidder": "Example Bidder Ltd.",
+    "submission_deadline": "2026-10-20"
+  },
+  "requirements": [
+    {"id":"R01","order":1,"title_en":"Trade License","title_bn":"ট্রেড লাইসেন্স","mandatory":true,"has_expiry":true},
+    {"id":"R02","order":2,"title_en":"TIN Certificate","title_bn":"টিআইএন সার্টিফিকেট","mandatory":true,"has_expiry":false},
+    {"id":"R03","order":3,"title_en":"VAT Registration Certificate","title_bn":"ভ্যাট রেজিস্ট্রেশন সার্টিফিকেট","mandatory":true,"has_expiry":false}
+  ]
+}
